@@ -74,7 +74,7 @@
 
 ### 5. Визуализация контекста системы — диаграмма С4
 
-- [Схема Context](C4.Visualize_system_context.png)
+- [Схема Context](schemas/C4.Visualize_system_context.png)
 
 # Задание 2. Проектирование микросервисной архитектуры
 
@@ -82,25 +82,25 @@
 
 **Диаграмма контейнеров (Containers)**
 
-- [Схема C4 Containers](C4.Visualize_system_Containers.png)
+- [Схема C4 Containers](schemas/C4.Visualize_system_Containers.png)
 
 **Диаграмма компонентов (Components)**
 
-- [Схема Components Device Service](C4.Visualize_system_Components_Device_Service.png)
-- [Схема Components Heating Service](C4.Visualize_system_Components_Heating_Service.png)
-- [Схема Components Notification Service](C4.Visualize_system_Components_Notification_Service.png)
-- [Схема Components Temperature Service](C4.Visualize_system_Components_Temperature_Service.png)
-- [Схема Components User Service](C4.Visualize_system_Components_User_Service.png)
+- [Схема Components Device Service](schemas/C4.Visualize_system_Components_Device_Service.png)
+- [Схема Components Heating Service](schemas/C4.Visualize_system_Components_Heating_Service.png)
+- [Схема Components Notification Service](schemas/C4.Visualize_system_Components_Notification_Service.png)
+- [Схема Components Temperature Service](schemas/C4.Visualize_system_Components_Temperature_Service.png)
+- [Схема Components User Service](schemas/C4.Visualize_system_Components_User_Service.png)
 
 **Диаграмма кода (Code)**
 
 Возьмём самый критичный микросервис — Heating Service, так как он содержит бизнес-логику управления отоплением, взаимодействует с устройствами и хранит состояние.
-- [Схема Components_Heating_Service_sequence](C4.Visualize_system_Components_Heating_Service_sequence.png)
-- [Схема Components_Heating_Service_class](C4.Visualize_system_Components_Heating_Service_class.png)
+- [Схема Components_Heating_Service_sequence](schemas/C4.Visualize_system_Components_Heating_Service_sequence.png)
+- [Схема Components_Heating_Service_class](schemas/C4.Visualize_system_Components_Heating_Service_class.png)
 
 # Задание 3. Разработка ER-диаграммы
 
-- [Общая ER-диаграмма](C4.Visualize_system_ER.png)
+- [Общая ER-диаграмма](schemas/C4.Visualize_system_ER.png)
 
 # Задание 4. Создание и документирование API
 
@@ -115,7 +115,7 @@ REST API. Он хорошо подходит для синхронного вз�
 
 ### 2. Документация API
 
-- [OpenAPI](OpenApi.yaml)
+- [OpenAPI](api/OpenApi.yaml)
 
 # Задание 5. Работа с docker и docker-compose
 
